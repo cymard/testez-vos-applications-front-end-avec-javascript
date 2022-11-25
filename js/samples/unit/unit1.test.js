@@ -7,11 +7,11 @@ describe('sayHello Unit Test Suites', () => {
     it('should display "Hello, World"', () => {
         expect(sayHello()).toEqual("Hello, World")
     })
-    
-    it('should display "Bonjour Alexandra"', () => {
-        expect(sayHello("Alexandra")).toEqual("Bonjour Alexandra")
+
+    it('should display Bounjour Alexandra', () => {
+        expect(sayHello('Alexandra')).toEqual('Bonjour Alexandra')
     })
-    
+
     it('should display "Hello, Thomas"', () => {
         expect(sayHello("Thomas")).toEqual("Hello, Thomas")
     })
