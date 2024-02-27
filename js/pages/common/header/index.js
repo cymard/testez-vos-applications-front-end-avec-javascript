@@ -9,9 +9,6 @@ const Header = {
                     <li class="main-nav-item">
                         <a class="main-nav-link" href="#/home">Accueil</a>
                     </li>
-                    <li class="main-nav-item">
-                        <a class="main-nav-link" href="#">Le projet</a>
-                    </li>
                     <li class="main-nav-item pr">
                         <a class="main-nav-link" href="#/add-sensor">Ajouter un capteur</a>
                     </li>

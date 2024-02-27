@@ -9,12 +9,12 @@ const SignIn = {
                         
                         <div class="form-group">
                             <label for="user-email">Votre addresse e-mail</label>
-                            <input name="user-email" id="user-email" type="email" placeholder="email@example.com">
+                            <input name="user-email" id="user-email" type="email" placeholder="email@example.com" value="thomas@facadia.com">
                             <span data-testid="user-email-error-msg" class="form-text-error hidden user-email-error-msg">L'e-mail n'est pas correct</span>
                         </div>
                         <div class="form-group">
                             <label for="user-password">Votre mot de passe</label>
-                            <input name="user-password" id="user-password" type="password" placeholder="mot de passe">
+                            <input name="user-password" id="user-password" type="password" placeholder="mot de passe" value="azerty">
                             <span data-testid="user-password-error-msg" class="form-text-error hidden  user-password-error-msg">Le mot de passe n'est pas correct</span>
                         </div>
                         <div>
