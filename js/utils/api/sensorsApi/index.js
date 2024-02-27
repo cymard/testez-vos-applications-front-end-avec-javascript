@@ -4,7 +4,7 @@ import { isInTestEnv } from '../../env/index.js'
 
 export const retrieveSensorsData = () => isInTestEnv()
     ? data.facades
-    : fetch('http://127.0.0.1:8080/data/homepage-data.json', {
+    : fetch('http://127.0.0.1:5500/data/homepage-data.json', {
         headers: {
             'Content-Type' : 'application/json',
         }
